@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "kazukokawagawa",
+      "name": "池鱼鱼",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109492503?v=4",
+      "profile": "https://chiyu.it",
+      "contributions": [
+        "code",
+        "translation"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "vitepress-theme-project-trans",
+  "projectOwner": "mtfreport"
+}
