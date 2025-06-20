@@ -1,6 +1,6 @@
 <!--markdownlint-disable MD028 MD033 MD036 MD041 MD045-->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <div align="right">
@@ -32,6 +32,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://chiyu.it"><img src="https://avatars.githubusercontent.com/u/109492503?v=4?s=100" width="100px;" alt="池鱼鱼"/><br /><sub><b>池鱼鱼</b></sub></a><br /><a href="https://github.com/mtfreport/vitepress-theme-project-trans/commits?author=kazukokawagawa" title="Code">💻</a> <a href="#translation-kazukokawagawa" title="Translation">🌍</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/CodingXiaoheng"><img src="https://avatars.githubusercontent.com/u/216361016?v=4?s=100" width="100px;" alt="CodingXiaoheng"/><br /><sub><b>CodingXiaoheng</b></sub></a><br /><a href="#content-CodingXiaoheng" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
