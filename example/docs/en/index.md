@@ -7,7 +7,7 @@ category:
 ---
 ## Advocacy and Support for Transgender Women (MtF) in China
 
-MtF.Report is a grassroots platform dedicated to researching and supporting MtF youth in China. Through in-depth studies and authentic stories, we strive to break informational barriers, helping the world understand their struggles and aiding them toward safer and more dignified lives.
+MtF.Report is a small public welfare platform dedicated to the study and support of Chinese youth transgirls (MtF). Through in-depth research and real cases, we break down information barriers, let the world understand their situation, help them better understand themselves, and support them to get out of trouble with practical actions, get long-term development opportunities, and move towards a safer and more dignified life.
 
 ### Core Features
 
