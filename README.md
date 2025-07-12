@@ -8,7 +8,7 @@
 
 </div>
 
-MtF.Report 是一个致力于研究与支持中国青少年跨性别女性（MtF）的小型公益平台。我们通过深入的调研和真实案例，打破信息壁垒，让世界了解她们的处境，帮助她们走出困境，迈向更安全、更有尊严的生活。
+MtF.Report 是一个致力于研究与支持中国青少年跨性别女性（MtF）的小型公益平台。我们通过深入的调研和真实案例，打破信息壁垒，让世界了解她们的处境，帮助她们更好地了解自己，并以实际行动支持她们走出困境，获得长期发展的机会，迈向更安全、更有尊严的生活。
 
 本项目贡献者包括跨性别者等多元文化群体，请在贡献时尊重她们，使用友善礼貌的词语。
 
@@ -51,7 +51,7 @@ MtF.Report 是一个致力于研究与支持中国青少年跨性别女性（MtF
       <td align="center" valign="top">祐穂・H</td>
       <td align="center" valign="top">白兔子成精</td>
       <td align="center" valign="top">化蝶为君舞丶</td>
-      <td align="center" valign="top">托马斯（记者）</td>
+      <td align="center" valign="top">Thomas🍥</td>
       <td align="center" valign="top">那些秋叶</td>
       <td align="center" valign="top">HFRin🏳️‍⚧️🍥</td>
       <td align="center" valign="top">胖大鹅</td>
