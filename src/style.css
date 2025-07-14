@@ -1,4 +1,20 @@
+@font-face {
+  font-family: 'FontName';
+  src: url('/fonts/vivoSans-Regular.eot'); /* IE9+ Compat Modes */
+  src: url('/fonts/vivoSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/vivoSans-Regular.woff2') format('woff2'), /* Super modern browsers */
+       url('/fonts/vivoSans-Regular.woff') format('woff'), /* Modern browsers */
+       url('/fonts/vivoSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/vivoSans-Regular.svg#FontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 应用于全站 */
 :root {
-  --vp-font-family-base: var(--main-font) !important; /* 文本字体 */
-  --vp-font-family-mono: var(--main-font) !important; /* 代码字体 */
+  --vp-font-family-base: 'FontName', sans-serif;
+}
+
+body {
+  font-family: 'FontName', sans-serif;
 }
