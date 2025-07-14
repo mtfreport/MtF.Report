@@ -1,3 +1,4 @@
+/* Regular (400) */
 @font-face {
   font-family: 'vivosans';
   src: url('/fonts/vivoSans-Regular.woff2') format('woff2'),
@@ -6,6 +7,16 @@
   font-style: normal;
 }
 
+/* Medium (500) */
+@font-face {
+  font-family: 'vivosans';
+  src: url('/fonts/vivoSans-Medium.woff2') format('woff2'),
+       url('/fonts/vivoSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* DemiBold (600) */
 @font-face {
   font-family: 'vivosans';
   src: url('/fonts/vivoSans-DemiBold.woff2') format('woff2'),
@@ -14,14 +25,71 @@
   font-style: normal;
 }
 
+/* Bold (700) */
+@font-face {
+  font-family: 'vivosans';
+  src: url('/fonts/vivoSans-Bold.woff2') format('woff2'),
+       url('/fonts/vivoSans-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* ExtraBold (800) */
+@font-face {
+  font-family: 'vivosans';
+  src: url('/fonts/vivoSans-ExtraBold.woff2') format('woff2'),
+       url('/fonts/vivoSans-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Heavy (900) */
+@font-face {
+  font-family: 'vivosans';
+  src: url('/fonts/vivoSans-Heavy.woff2') format('woff2'),
+       url('/fonts/vivoSans-Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
 :root {
   --vp-font-family-base: 'vivosans', sans-serif;
 }
 
 body {
   font-family: var(--vp-font-family-base);
+  font-weight: 400;
 }
 
-h1, h2 {
-  font-weight: 600;
+h1 {
+  font-weight: 900; /* Heavy */
+}
+
+h2 {
+  font-weight: 800; /* ExtraBold */
+}
+
+h3 {
+  font-weight: 700; /* Bold */
+}
+
+h4 {
+  font-weight: 600; /* DemiBold */
+}
+
+h5 {
+  font-weight: 500; /* Medium */
+}
+
+h6 {
+  font-weight: 400; /* Regular */
+}
+
+p {
+  font-weight: 500; /* Medium */
+}
+
+span.name.clip {
+  font-weight: 900;
 }
