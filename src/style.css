@@ -1,20 +1,27 @@
 @font-face {
   font-family: 'vivosans';
-  src: url('/fonts/vivoSans-Regular.eot'); /* IE9+ Compat Modes */
-  src: url('/fonts/vivoSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/vivoSans-Regular.woff2') format('woff2'), /* Super modern browsers */
-       url('/fonts/vivoSans-Regular.woff') format('woff'), /* Modern browsers */
-       url('/fonts/vivoSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/vivoSans-Regular.svg#vivosans') format('svg'); /* Legacy iOS */
-  font-weight: normal;
+  src: url('/fonts/vivoSans-Regular.woff2') format('woff2'),
+       url('/fonts/vivoSans-Regular.woff') format('woff');
+  font-weight: 400;
   font-style: normal;
 }
 
-/* 应用于全站 */
+@font-face {
+  font-family: 'vivosans';
+  src: url('/fonts/vivoSans-DemiBold.woff2') format('woff2'),
+       url('/fonts/vivoSans-DemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
 :root {
   --vp-font-family-base: 'vivosans', sans-serif;
 }
 
 body {
-  font-family: 'vivosans', sans-serif;
+  font-family: var(--vp-font-family-base);
+}
+
+h1, h2 {
+  font-weight: 600;
 }
