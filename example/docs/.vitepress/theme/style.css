@@ -68,6 +68,7 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
+  --main-color: #425aef;
 }
 
 .dark:root {
@@ -75,6 +76,7 @@
   --vp-c-brand-2: #087470;
   --vp-c-brand-3: #087470;
   --vp-c-brand-soft: rgb(8 116 112 / 16%);
+  --main-color: #dfac46;
 }
 
 /**
@@ -148,3 +150,8 @@
 .vp-doc {
   text-align: justify;
 }
+
+/* 重点 */
+    strong {
+      color: var(--main-color);
+    }
