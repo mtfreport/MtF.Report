@@ -37,7 +37,7 @@ const items = computed(() => {
 })
 </script>
 
-<template>
+<!--<template>
   <VPFlyout icon="i-octicon:typography-16" :items="items" />
   <template v-if="fonts && fonts[activeFont]">
     <link
@@ -48,7 +48,7 @@ const items = computed(() => {
       :href="`${fontsBaseUrl}/${css}/result.css`"
     >
   </template>
-</template>
+</template>-->
 
 <style lang="css" scoped>
 .VPMenuGroup + .VPMenuLink {
