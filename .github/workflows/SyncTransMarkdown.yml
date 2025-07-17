@@ -9,7 +9,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repo
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Fetch sb-child/notes repo
