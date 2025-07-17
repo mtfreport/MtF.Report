@@ -1,0 +1,27 @@
+name: Sync trans.md from sb-child source
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout your repo
+        uses: actions/checkout@v4
+
+      - name: Fetch sb-child/notes repo
+        run: |
+          git clone --depth=1 https://github.com/sb-child/notes.git temp_notes
+
+      - name: Copy and commit file
+        run: |
+          mkdir -p example/docs/zh-cn/references
+          cp temp_notes/trans.md example/docs/zh-cn/references/sbchild.md
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add example/docs/zh-cn/references/sbchild.md
+          git commit -m "chore: sync sbchild.md from sb-child/notes" || echo "No changes"
+          git push
